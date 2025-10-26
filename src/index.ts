@@ -4,7 +4,7 @@ import { decode } from 'html-entities';
 
 type FalsyFilter = <T>(item: T | false | null | undefined) => item is T;
 
-type FeedItem = {
+export type FeedItem = {
   title: string;
   description?: string;
   link: string;
