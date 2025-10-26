@@ -1,0 +1,9 @@
+.github/
+
+src/
+
+tests/
+
+.prettierrc
+
+tsconfig.json

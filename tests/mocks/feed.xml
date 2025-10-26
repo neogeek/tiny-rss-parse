@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Example RSS Feed</title>
+    <link>https://example.com/</link>
+    <description>An Example RSS Feed</description>
+    <atom:link href="https://example.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>https://example.com/blog/first-post</link>
+      <description>This is a description about the first post in the example RSS feed.</description>
+      <guid isPermaLink="true">https://example.com/blog/first-post</guid>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Second Post</title>
+      <link>https://example.com/blog/second-post</link>
+      <description>This is a description about the second post in the example RSS feed.</description>
+      <guid isPermaLink="true">https://example.com/blog/second-post</guid>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Third Post</title>
+      <link>https://example.com/blog/third-post</link>
+      <description>This is a description about the third post in the example RSS feed.</description>
+      <guid isPermaLink="true">https://example.com/blog/third-post</guid>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Invalid Post</title>
+      <link>https://example.com/blog/third-post</link>
+    </item>
+    <item>
+      <title>Invalid Post</title>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
