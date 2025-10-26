@@ -13,7 +13,7 @@ $ npm install tiny-rss-parse --save
 ## Usage
 
 ```javascript
-import { parseFeed, sortFeed, filterOlderPosts } from 'tiny-rss-parse;
+import { parseFeed, sortFeed, filterOlderPosts } from 'tiny-rss-parse';
 
 // Load feed via fetch
 const feed = await fetch('https://neogeek.dev/feed.xml');
